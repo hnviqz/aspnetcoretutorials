@@ -47,10 +47,11 @@ Attribute routing, introduced in later versions of ASP.NET, allows for more gran
 
 #### When to use Attribute Routing:
 
-Fine-grained URL Control: When you need precise control over your application’s URL patterns, attribute routing is the way to go. It’s particularly useful for designing RESTful APIs where URLs represent resources and operations on those resources.
-Complex Route Patterns: Attribute routing shines when dealing with complex routes that conventional routing struggles with, such as routes that need to capture multiple parameters or have custom constraints.
-Versioning APIs: For applications that involve API versioning, attribute routing makes it easier to define different routes for different API versions within the same application.
-Mixing Static and Dynamic Segments: If you need to mix static URL segments with dynamic ones in a single route, attribute routing provides the flexibility to accomplish this easily.
+- **Fine-grained URL Control**: When you need precise control over your application’s URL patterns, attribute routing is the way to go. It’s particularly useful for designing RESTful APIs where URLs represent resources and operations on those resources.
+- **Complex Route Patterns**: Attribute routing shines when dealing with complex routes that conventional routing struggles with, such as routes that need to capture multiple parameters or have custom constraints.
+- **Versioning APIs**: For applications that involve API versioning, attribute routing makes it easier to define different routes for different API versions within the same application.
+- **Mixing Static and Dynamic Segments**: If you need to mix static URL segments with dynamic ones in a single route, attribute routing provides the flexibility to accomplish this easily.
+
 The choice between attribute routing and conventional routing depends on your application’s specific needs. Conventional routing is often more suitable for applications that benefit from centralized route definitions and have a uniform URL structure. On the other hand, attribute routing is preferred for applications requiring detailed control over route configurations, such as APIs or applications with complex routing requirements. It’s also worth noting that ASP.NET Core supports combining both routing methods in the same application, allowing developers to choose the most appropriate routing strategy for each controller or action.
 
 In the next article, I will discuss Layout View in ASP.NET Core MVC Application with one example. In this article, I explain Attribute Routing vs Conventional Routing in ASP.NET Core. I hope you enjoy this Attribute Routing vs Conventional Routing in ASP.NET Core MVC Application article. 
